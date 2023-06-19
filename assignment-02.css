@@ -1,0 +1,93 @@
+*{
+    font-family: "Orbitron", sans-serif;  
+}
+
+.circle{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 15px solid black;
+    
+}
+#back1
+{
+    height: 218px;
+    width: 218px;
+    border-radius:50%;
+    border: 1200000px solid white;
+    background-color: white;
+}
+
+.circle #greenCircle{
+    background-color: darkgreen;
+    position: absolute;
+    transform: translate(450px, 100px);
+}
+
+.circle #blueCircle{
+    background-color: darkblue;
+    position: absolute;
+    transform: translate(800px, 400px);
+}
+
+.circle #yellowCircle{
+    background-color: goldenrod;
+    position: absolute;
+    transform: translate(450px,400px)
+}
+
+.circle #redCircle{
+    background-color: darkred;
+    position: absolute;
+    transform: translate(800px,100px);
+}
+
+
+
+#blackCircle{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    transform: translate(540px,150px);
+}
+
+.circle #littleCircle{
+    height: 10px;
+    width: 10px;
+    border-radius:50%;
+    background-color: red;
+    position: absolute;
+    transform: translate(735px, 400px);
+}
+
+.startButton #but{
+    width:100px;
+    height:40px;
+    font-size: 25px;
+    position: absolute;
+    transform: translate(700px,130px);
+}
+
+.highScore #high{
+    background-color: #e6e6e6;
+    border-radius: 10px;
+    padding: 15px 0;
+    width: 50px;
+    text-align: center;
+    font-size: 15px;
+    position: absolute;
+    transform: translate(640px,125px);
+}
+
+.currentScore #curr{
+    background-color: #e6e6e6;
+    border-radius: 10px;
+    padding: 15px 0;
+    width: 50px;
+    text-align: center;
+    font-size: 15px;
+    position: absolute;
+    transform: translate(805px,125px);
+}
